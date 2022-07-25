@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://outofs@github.com/outofs/project-pig-game.git"
+  },
+  "author": "Olexandr Hirych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/outofs/project-pig-game/issues"
+  },
+  "homepage": "https://github.com/outofs/project-pig-game#readme",
+  "dependencies": {
+    "parcel": "^2.6.2"
+  }
+}
