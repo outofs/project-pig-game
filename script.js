@@ -29,7 +29,7 @@ btnRoll.addEventListener('click', function () {
 
     //  2. Display dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${diceNumber}.png`;
+    diceEl.src = `https://github.com/outofs/project-pig-game/blob/master/dice-${diceNumber}.png?raw=true`;
 
     //  3. Check for rolled 1: if true, switch to next player
     if (diceNumber !== 1) {
